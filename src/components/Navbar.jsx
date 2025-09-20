@@ -1,13 +1,9 @@
-// src/components/Navbar.jsx
 import React, { useState } from "react";
-import { Link } from "react-scroll"; // for smooth scrolling
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => setIsOpen(!isOpen);
-
-  const navLinks = [
+  const links = [
     { name: "Home", to: "home" },
     { name: "About", to: "about" },
     { name: "Education", to: "education" },
@@ -18,75 +14,49 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-indigo-600 to-pink-500 shadow-lg z-50">
+      <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo / Name */}
-        <div className="text-2xl font-bold text-indigo-600">
-          Nandhitha
-        </div>
+        <h1 className="text-2xl font-bold text-white tracking-wide">Nandhitha</h1>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.to}
-              smooth={true}
-              duration={500}
-              className="cursor-pointer text-gray-700 hover:text-indigo-600"
-            >
-              {link.name}
-            </Link>
+        <ul className="hidden md:flex space-x-6">
+          {links.map((link) => (
+            <li key={link.to}>
+              <a
+                href={`#${link.to}`}
+                className="text-white font-medium hover:text-yellow-300 transition duration-200"
+              >
+                {link.name}
+              </a>
+            </li>
           ))}
-        </div>
+        </ul>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-gray-700 hover:text-indigo-600 focus:outline-none"
-          >
-            {isOpen ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h16M4 16h16" />
-              </svg>
-            )}
-          </button>
-        </div>
+        <button
+          className="md:hidden text-white text-2xl"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? "✕" : "☰"}
+        </button>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white px-4 pt-2 pb-4 space-y-2 shadow-md">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.to}
-              smooth={true}
-              duration={500}
-              onClick={toggleMenu}
-              className="block cursor-pointer text-gray-700 hover:text-indigo-600"
-            >
-              {link.name}
-            </Link>
+        <ul className="md:hidden bg-gradient-to-r from-indigo-600 to-pink-500 p-4 space-y-4">
+          {links.map((link) => (
+            <li key={link.to}>
+              <a
+                href={`#${link.to}`}
+                className="block text-white font-medium hover:text-yellow-300 transition duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                {link.name}
+              </a>
+            </li>
           ))}
-        </div>
+        </ul>
       )}
     </nav>
   );
