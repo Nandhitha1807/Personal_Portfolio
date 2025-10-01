@@ -7,64 +7,64 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "E-Commerce Web Application",
-      category: "web",
-      description: "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration.",
-      longDescription: "Built a comprehensive e-commerce solution using React.js for the frontend and Node.js with Express for the backend. Features include user registration/login, product browsing with filters, shopping cart functionality, order management, and secure payment processing. Implemented responsive design for optimal mobile experience.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "JavaScript", "CSS"],
+      title: "Deep Learning COVID-19 & Pneumonia Detection",
+      category: "ai",
+      description: "Deep learning-based detection system for COVID-19 and pneumonia using chest X-ray images with high accuracy classification.",
+      longDescription: "Developed an advanced deep learning model to detect COVID-19 and pneumonia from chest X-ray images. The system uses convolutional neural networks (CNN) to analyze medical images and provide accurate diagnoses. This project demonstrates the application of AI in healthcare, helping medical professionals make faster and more accurate diagnoses.",
+      technologies: ["Python", "TensorFlow", "Keras", "Deep Learning", "CNN", "OpenCV"],
       features: [
-        "User Authentication & Authorization",
-        "Product Catalog with Search & Filters",
-        "Shopping Cart & Checkout Process",
-        "Order Management System",
-        "Responsive Design",
-        "Payment Gateway Integration"
+        "Automated Disease Detection",
+        "High Accuracy Classification",
+        "Medical Image Processing",
+        "Deep Neural Network Architecture",
+        "Data Augmentation Techniques",
+        "Model Performance Visualization"
       ],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&h=400&fit=crop",
       demoUrl: "#",
-      githubUrl: "#",
-      status: "Completed",
-      duration: "3 months",
+      githubUrl: "https://github.com/Nandhitha1807/Covid19_Pnuemonia_Prediction",
+      status: "Ongoing",
+      duration: "In Progress",
       teamSize: "Solo Project"
     },
     {
       id: 2,
-      title: "Task Management System",
+      title: "Portfolio Website",
       category: "web",
-      description: "A collaborative task management application with real-time updates, project tracking, and team collaboration features.",
-      longDescription: "Developed a comprehensive task management system that allows teams to create projects, assign tasks, track progress, and collaborate in real-time. The application features drag-and-drop functionality, priority levels, due date tracking, and notification system.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Socket.io", "JavaScript", "Tailwind CSS"],
+      description: "Modern personal portfolio website built with React.js and Tailwind CSS showcasing skills, projects, and professional experience.",
+      longDescription: "Designed and developed a modern, responsive portfolio website using React.js and Tailwind CSS. The website features smooth animations, interactive components, project showcases, and optimized performance for all devices. Built with component-based architecture for maintainability and scalability.",
+      technologies: ["React.js", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
       features: [
-        "Project & Task Creation",
-        "Real-time Collaboration",
-        "Drag & Drop Interface",
-        "Progress Tracking",
-        "Notification System",
-        "Team Member Management"
+        "Responsive Design",
+        "Interactive Animations",
+        "Project Showcase Section",
+        "Skills & Experience Display",
+        "Performance Optimized",
+        "Modern UI/UX Design"
       ],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=400&fit=crop",
       demoUrl: "#",
-      githubUrl: "#",
-      status: "Completed",
-      duration: "2 months",
-      teamSize: "2 Developers"
+      githubUrl: "https://github.com/Nandhitha1807/Portfolio",
+      status: "Ongoing",
+      duration: "In Progress",
+      teamSize: "Solo Project"
     },
     {
       id: 3,
-      title: "Student Grade Management",
-      category: "desktop",
-      description: "A desktop application for educational institutions to manage student records, grades, and generate reports.",
-      longDescription: "Created a comprehensive grade management system using Java and MySQL. The application allows teachers to input grades, generate progress reports, and administrators to manage student records. Features include data validation, report generation, and secure user access controls.",
-      technologies: ["Java", "MySQL", "JavaFX", "JDBC"],
+      title: "Event Management Website",
+      category: "web",
+      description: "User-friendly event management platform for organizing and managing events with comprehensive features for organizers and attendees.",
+      longDescription: "Led the development of an innovative event management website using HTML, CSS, and JavaScript. The platform provides a comprehensive solution for event organizers and attendees, featuring intuitive navigation, event registration, scheduling, and management capabilities. The website demonstrates strong front-end development skills and user experience design.",
+      technologies: ["HTML5", "CSS3", "JavaScript"],
       features: [
-        "Student Record Management",
-        "Grade Input & Calculation",
-        "Progress Report Generation",
-        "User Role Management",
-        "Data Export Functionality",
-        "Search & Filter Options"
+        "Event Registration System",
+        "Event Scheduling & Calendar",
+        "User-Friendly Interface",
+        "Responsive Design",
+        "Event Details Management",
+        "Interactive UI Components"
       ],
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop",
       demoUrl: "#",
       githubUrl: "#",
       status: "Completed",
@@ -73,68 +73,68 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Weather Monitoring System",
-      category: "python",
-      description: "A Python-based weather monitoring system that fetches real-time weather data and provides alerts for extreme conditions.",
-      longDescription: "Developed a weather monitoring application using Python that integrates with weather APIs to fetch real-time data. The system provides weather forecasts, historical data analysis, and sends alerts for extreme weather conditions via email notifications.",
-      technologies: ["Python", "API Integration", "Tkinter", "SQLite", "Requests"],
+      title: "AI Chatbot Web Application",
+      category: "web",
+      description: "Interactive AI-based chatbot providing instant responses to user queries with human-like conversation capabilities.",
+      longDescription: "Led the development of an interactive AI-based chatbot web application using HTML, CSS, and JavaScript. The chatbot simulates human-like conversations and provides instant responses to user queries through an intuitive interface. This project showcases the integration of front-end technologies with AI logic for real-time interaction and enhanced user engagement.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "AI Logic"],
       features: [
-        "Real-time Weather Data",
-        "Weather Alerts & Notifications",
-        "Historical Data Analysis",
-        "Multiple Location Support",
-        "Data Visualization",
-        "Email Alert System"
+        "Human-Like Conversations",
+        "Instant Response System",
+        "User-Friendly Interface",
+        "Real-Time Interaction",
+        "Message History Display",
+        "Responsive Chat Design"
       ],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=400&fit=crop",
       demoUrl: "#",
       githubUrl: "#",
       status: "Completed",
-      duration: "1 month",
+      duration: "1.5 months",
       teamSize: "Solo Project"
     },
     {
       id: 5,
-      title: "Library Management System",
-      category: "java",
-      description: "A comprehensive library management system with book cataloging, member management, and lending operations.",
-      longDescription: "Built a complete library management solution using Java with MySQL database. The system handles book inventory, member registration, book lending/returning processes, fine calculations, and generates various reports for library administration.",
-      technologies: ["Java", "MySQL", "Swing", "JDBC"],
+      title: "Landing Page",
+      category: "web",
+      description: "Professionally designed landing page with modern aesthetics and responsive layout for optimal user experience.",
+      longDescription: "Created an attractive and responsive landing page using HTML and CSS. The design focuses on user engagement with clean aesthetics, intuitive navigation, and effective call-to-action elements. This project demonstrates proficiency in front-end design principles and responsive web development.",
+      technologies: ["HTML5", "CSS3"],
       features: [
-        "Book Inventory Management",
-        "Member Registration & Management",
-        "Lending & Return Operations",
-        "Fine Calculation System",
-        "Search & Filter Functionality",
-        "Report Generation"
+        "Modern Design Aesthetics",
+        "Fully Responsive Layout",
+        "Smooth Animations",
+        "Call-to-Action Elements",
+        "Cross-Browser Compatible",
+        "Optimized Performance"
       ],
-      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=400&fit=crop",
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Nandhitha1807/Landing_Page",
       status: "Completed",
-      duration: "2.5 months",
+      duration: "2 weeks",
       teamSize: "Solo Project"
     },
     {
       id: 6,
-      title: "Portfolio Website",
+      title: "Calculator Application",
       category: "web",
-      description: "A responsive personal portfolio website showcasing projects, skills, and professional experience.",
-      longDescription: "Designed and developed a modern, responsive portfolio website using React.js and Tailwind CSS. The website features smooth animations, interactive components, project showcases, and optimized performance for all devices.",
-      technologies: ["React.js", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
+      description: "Functional calculator web application with clean interface and essential mathematical operations.",
+      longDescription: "Developed a fully functional calculator application using HTML, CSS, and JavaScript. The calculator features a clean, intuitive interface and performs all basic mathematical operations with precision. This project demonstrates strong JavaScript programming skills and understanding of DOM manipulation.",
+      technologies: ["HTML5", "CSS3", "JavaScript"],
       features: [
+        "Basic Mathematical Operations",
+        "Clean User Interface",
+        "Keyboard Support",
         "Responsive Design",
-        "Interactive Animations",
-        "Project Showcase",
-        "Contact Form",
-        "Performance Optimized",
-        "SEO Friendly"
+        "Error Handling",
+        "Clear & Delete Functions"
       ],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=800&h=400&fit=crop",
       demoUrl: "#",
-      githubUrl: "#",
-      status: "Ongoing",
-      duration: "1 month",
+      githubUrl: "https://github.com/Nandhitha1807/Calculator",
+      status: "Completed",
+      duration: "1 week",
       teamSize: "Solo Project"
     }
   ];
@@ -142,9 +142,7 @@ const Projects = () => {
   const categories = [
     { key: "all", label: "All Projects", icon: "📁" },
     { key: "web", label: "Web Development", icon: "🌐" },
-    { key: "java", label: "Java Applications", icon: "☕" },
-    { key: "python", label: "Python Projects", icon: "🐍" },
-    { key: "desktop", label: "Desktop Apps", icon: "💻" }
+    { key: "ai", label: "AI & Deep Learning", icon: "🤖" }
   ];
 
   const getFilteredProjects = () => {
@@ -156,14 +154,16 @@ const Projects = () => {
     const colors = {
       "React.js": "bg-cyan-500/20 text-cyan-300",
       "JavaScript": "bg-yellow-500/20 text-yellow-300",
-      "Node.js": "bg-green-500/20 text-green-300",
-      "MongoDB": "bg-green-600/20 text-green-400",
-      "Python": "bg-blue-500/20 text-blue-300",
-      "Java": "bg-orange-500/20 text-orange-300",
-      "MySQL": "bg-blue-600/20 text-blue-400",
-      "CSS": "bg-purple-500/20 text-purple-300",
       "HTML5": "bg-red-500/20 text-red-300",
-      "Tailwind CSS": "bg-teal-500/20 text-teal-300"
+      "CSS3": "bg-purple-500/20 text-purple-300",
+      "Tailwind CSS": "bg-teal-500/20 text-teal-300",
+      "Python": "bg-blue-500/20 text-blue-300",
+      "TensorFlow": "bg-orange-500/20 text-orange-300",
+      "Keras": "bg-red-600/20 text-red-400",
+      "Deep Learning": "bg-indigo-500/20 text-indigo-300",
+      "CNN": "bg-purple-600/20 text-purple-400",
+      "OpenCV": "bg-green-500/20 text-green-300",
+      "AI Logic": "bg-pink-500/20 text-pink-300"
     };
     return colors[tech] || "bg-gray-500/20 text-gray-300";
   };
@@ -211,7 +211,7 @@ const Projects = () => {
               </div>
               <div className="bg-slate-700/50 p-4 rounded-lg">
                 <h4 className="text-gray-400 text-sm uppercase tracking-wide mb-2">Category</h4>
-                <p className="text-white font-semibold capitalize">{project.category}</p>
+                <p className="text-white font-semibold capitalize">{project.category === "ai" ? "AI & Deep Learning" : "Web Development"}</p>
               </div>
             </div>
 
@@ -255,6 +255,8 @@ const Projects = () => {
               </a>
               <a
                 href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-1 border-2 border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white px-6 py-3 rounded-lg font-semibold text-center transition-all duration-300 transform hover:scale-105"
               >
                 📦 View Source Code
@@ -407,6 +409,8 @@ const Projects = () => {
                     </a>
                     <a
                       href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex-1 border border-gray-500 text-gray-400 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300"
                     >
                       📦 Code
