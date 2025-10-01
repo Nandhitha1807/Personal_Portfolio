@@ -295,7 +295,7 @@ const Projects = () => {
           </p>
 
           {/* Project Stats */}
-          <div className="grid md:grid-cols-4 gap-6 mt-12 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
               <div className="text-4xl font-bold text-white mb-2">{projectsData.length}</div>
               <div className="text-gray-400">Total Projects</div>
@@ -307,10 +307,6 @@ const Projects = () => {
             <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
               <div className="text-4xl font-bold text-white mb-2">{Array.from(new Set(projectsData.flatMap(p => p.technologies))).length}</div>
               <div className="text-gray-400">Technologies</div>
-            </div>
-            <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-              <div className="text-4xl font-bold text-white mb-2">1+</div>
-              <div className="text-gray-400">Years Experience</div>
             </div>
           </div>
         </div>
