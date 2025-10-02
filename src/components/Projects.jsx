@@ -25,7 +25,7 @@ const Projects = () => {
       githubUrl: "https://github.com/Nandhitha1807/Covid19_Pnuemonia_Prediction",
       status: "Ongoing",
       duration: "In Progress",
-      teamSize: "Solo Project"
+      teamSize: "Group Project"
     },
     {
       id: 2,
