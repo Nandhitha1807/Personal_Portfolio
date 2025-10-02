@@ -409,7 +409,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className="flex-1 border border-gray-500 text-gray-400 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300"
                     >
-                      📦 Code
+                      📦Source Code
                     </a>
                   </div>
                 </div>
