@@ -16,9 +16,9 @@ const Projects = () => {
         "Automated Disease Detection",
         "High Accuracy Classification",
         "Medical Image Processing",
-        "Deep Neural Network Architecture",
+        "GRADCAM visualization",
         "Data Augmentation Techniques",
-        "Model Performance Visualization"
+        "HeatMap Visualization"
       ],
       image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&h=400&fit=crop",
       demoUrl: "#",
